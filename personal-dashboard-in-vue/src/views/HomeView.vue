@@ -1,9 +1,16 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <main>
-    hello world!
+    <Card></Card>
   </main>
 </template>
+
+<script lang="ts">
+import Card from '@/components/Card.vue'
+
+export default {
+  name: "HomeView",
+  components: {
+    Card
+  }
+}
+</script>
