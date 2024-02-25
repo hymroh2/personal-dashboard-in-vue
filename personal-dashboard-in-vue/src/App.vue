@@ -1,11 +1,21 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-</script>
-
 <template>
-  <RouterView />
+  <div class="flex">
+    <SideNavBar />
+    <div class="grow ml-64">
+      <RouterView />
+    </div>
+  </div>
 </template>
 
-<style scoped>
+<script lang="ts">
+import { RouterView } from 'vue-router'
+import SideNavBar from './components/SideNavBar.vue'
 
-</style>
+export default {
+  name: "App",
+  components: {
+    RouterView, 
+    SideNavBar
+  }
+}
+</script>
