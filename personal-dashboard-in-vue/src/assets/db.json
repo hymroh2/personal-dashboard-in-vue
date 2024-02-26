@@ -1,11 +1,11 @@
 {
     "uni_schedule": [
-        { "id": 1, "course_id": "COMP2048", "day": "Wednesday", "start_time": 1000, "end_time": 1200, "type": "Lecture"},
-        { "id": 2, "course_id": "COMP2048", "day": "Wednesday", "start_time": 1200, "end_time": 1400, "type": "Practical"},
-        { "id": 3, "course_id": "COMP2048", "day": "Friday", "start_time": 1000, "end_time": 1200, "type": "Tutorial"},
-        { "id": 4, "course_id": "COMS3200", "day": "Monday", "start_time": 800, "end_time": 1000, "type": "Lecture"},
-        { "id": 5, "course_id": "COMS3200", "day": "Wednesday", "start_time": 1400, "end_time": 1600, "type": "Tutorial"},
-        { "id": 6, "course_id": "DECO2500", "day": "Tuesday", "start_time": 1600, "end_time": 1800, "type": "Lecture"},
-        { "id": 7, "course_id": "DECO2500", "day": "Tuesday", "start_time": 1400, "end_time": 1600, "type": "Studio"}
+        { "id": 1, "course_id": "COMP2048", "day": 3, "start_time": 1000, "end_time": 1200, "type": "Lecture"},
+        { "id": 2, "course_id": "COMP2048", "day": 3, "start_time": 1200, "end_time": 1400, "type": "Practical"},
+        { "id": 3, "course_id": "COMP2048", "day": 5, "start_time": 1000, "end_time": 1200, "type": "Tutorial"},
+        { "id": 4, "course_id": "COMS3200", "day": 1, "start_time": 800, "end_time": 1000, "type": "Lecture"},
+        { "id": 5, "course_id": "COMS3200", "day": 3, "start_time": 1400, "end_time": 1600, "type": "Tutorial"},
+        { "id": 6, "course_id": "DECO2500", "day": 2, "start_time": 1600, "end_time": 1800, "type": "Lecture"},
+        { "id": 7, "course_id": "DECO2500", "day": 2, "start_time": 1400, "end_time": 1600, "type": "Studio"}
     ]
 }
