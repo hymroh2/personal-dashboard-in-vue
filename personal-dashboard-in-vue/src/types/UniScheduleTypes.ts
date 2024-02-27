@@ -3,5 +3,6 @@ export type UniScheduleItem = {
   course_id: String,
   day: Number,
   start_time: Number,
-  end_time: Number
+  end_time: Number,
+  class_type: String
 }
