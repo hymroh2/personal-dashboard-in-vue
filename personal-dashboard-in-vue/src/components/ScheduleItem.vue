@@ -10,10 +10,10 @@
 export default {
   name: 'ScheduleItem',
   props: {
-    id: String,
+    id: Number,
     course_code: String,
     class_type: String,
-    time: String
+    time: Number
   }
 }
 </script>
