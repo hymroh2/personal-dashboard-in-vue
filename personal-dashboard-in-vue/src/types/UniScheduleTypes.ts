@@ -1,8 +1,8 @@
 export type UniScheduleItem = {
-  id: Number,
-  course_id: String,
-  day: Number,
-  start_time: Number,
-  end_time: Number,
-  class_type: String
+  id: number,
+  course_id: string,
+  day: number,
+  start_time: number,
+  end_time: number,
+  class_type: string
 }
