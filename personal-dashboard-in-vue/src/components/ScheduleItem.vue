@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex">
     <h1>{{ course_code }}</h1>
     <p>{{ class_type }}</p>
     <p>{{ time }}</p>
