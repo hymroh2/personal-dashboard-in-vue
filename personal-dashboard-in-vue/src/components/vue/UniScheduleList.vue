@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-  import ScheduleItem from '@/components/ScheduleItem.vue';
+  import ScheduleItem from '@/components/vue/ScheduleItem.vue';
   import { useUniScheduleStore } from '@/stores/UniScheduleStore'
 
   export default {

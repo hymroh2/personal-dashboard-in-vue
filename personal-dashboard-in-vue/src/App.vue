@@ -9,7 +9,7 @@
 
 <script lang="ts">
 import { RouterView } from 'vue-router'
-import SideNavBar from './components/SideNavBar.vue'
+import SideNavBar from './components/vue/SideNavBar.vue'
 
 export default {
   name: "App",
